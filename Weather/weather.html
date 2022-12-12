@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weather Live</title>
+    <link rel="stylesheet" href="weather.css">
+
+  </head>
+  <body>
+  
+   
+    <div class="navbars">
+        <ul>
+          <form id="shiftRight">
+            <input id="city" type="search" placeholder="Search" aria-label="Search">
+            <button type="submit" id="submit" id="submit" >Search</button>
+          </form>
+            <li><a href="#">Weather App</a></li>
+            <li><a href="#">Home </a></li>
+            <li><a href="#">About this App</a></li>
+            <li><a href="#">User Guide</a></li>
+          
+      </ul>
+    </div>
+  
+
+    <div class="boxes-container">
+      <img  class="image" src="weatherImg.jpg" >
+      <h2>Weather For  <span id="cityName"></span></h2>
+      <div class="inside-box1"> TEMPERATURE
+        <p>In - Degree/Celcius</p>
+        <ul class="alignList">
+        <li>Temperature :<span id="temp"></span></li>
+        <li> Min Temp :<span id="min_temp"></span></li>
+        <li>Max Temp :<span id="max_temp"></span></li>
+      </ul>
+      </div>
+      <div class="inside-box2">HUMIDITY INFORMATION
+        <p>In - Percent</p>
+      <ul class="alignList"> 
+        <!-- <li>Cloud Pct :<span id="cloud_pct"></span></li> -->
+         <li>Wind Degree : <span id="wind_degrees"></span> </li>
+        <li> Feels like:<span id="feels_like"></span></li>
+        <li>Humidity :<span id="humidity"></span></li>
+      </ul>
+      </div>
+      <div class="inside-box3">WIND INFORMATION
+        <p> In - Km/hr</p>
+
+        <ul class="alignList">
+        
+          <li>Wind Speed : <span id="wind_speed"></span> </li>
+          <li>Sunrise time : <span id="sunrise"></span> </li>
+          <li>Sunset time : <span id="sunset"></span> </li>
+        </ul>
+      </div>
+    </div> 
+
+    <!-- <div class="t-down">
+        <table>
+            <tr>
+              <th>Countries</th>
+              <th>yees</th>
+              <th>nooo</th>
+              <th>Cloud_pct</th>
+              <th>Feels_like</th>
+              <th>Humidity</th>
+              ><th>Max_temp</th>
+              <th>Min_temp</th>
+              <th>Sunrise</th>
+              <th>Sunset</th>
+              <th>Temp</th>
+             <th>Wind_degrees</th>
+             <th>Wind_speed</th>
+             
+            </tr>
+            <tr>
+              <td>Sanghai </td>
+              <td>Maria Anders</td>
+              <td>Germany</td>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>4</td>
+              <td>5</td>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>4</td>
+              <td>5</td>
+
+            </tr>
+            <tr>
+              <td>Boston</td>
+              <td>Francisco Chang</td>
+              <td>Mexico</td>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>4</td>
+              <td>5</td>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>4</td>
+              <td>5</td>
+            </tr>
+            <tr>
+                <td>Lucknow</td>
+                <td>Francisco Chang</td>
+                <td>Mexico</td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+              </tr>
+              <tr>
+                <td>Kolkata</td>
+                <td>Francisco Chang</td>
+                <td>Mexico</td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+              </tr>
+          </table>
+
+    </div> 
+    --> 
+   
+    <script src="weather.js"></script>
+  </body>
+
+</html>
